@@ -1,5 +1,5 @@
 //
-//  関数.cpp
+//  変数.cpp
 //  cpp
 //
 //  Created by uneko on 2020/12/11.
@@ -40,5 +40,11 @@ int main(){
     
     // もう一度代入
     x = 789;
-    std::cout << x;
+    std::cout << x << "\n"s;
+    
+    auto i = 10;
+    i = i+5;
+    std::cout << i;
+    
+    
 }

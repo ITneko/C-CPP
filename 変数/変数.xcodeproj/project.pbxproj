@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4031A6932583B9A900415631 /* 関数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6922583B9A900415631 /* 関数.cpp */; };
+		4031A6C12584DFA400415631 /* 変数_ex03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6BB2584DFA400415631 /* 変数_ex03.cpp */; };
+		4031A6C22584DFA400415631 /* 浮動小数点数_ex01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6BC2584DFA400415631 /* 浮動小数点数_ex01.cpp */; };
+		4031A6C32584DFA400415631 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6BE2584DFA400415631 /* HelloWorld.cpp */; };
+		4031A6C42584DFA400415631 /* 変数_ex01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6BF2584DFA400415631 /* 変数_ex01.cpp */; };
+		4031A6C52584DFA400415631 /* 変数_ex02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4031A6C02584DFA400415631 /* 変数_ex02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4031A65F2583A5CE00415631 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		4031A66C2583A62100415631 /* 浮動小数点数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "浮動小数点数.cpp"; path = "cpp/浮動小数点数.cpp"; sourceTree = "<group>"; };
-		4031A6742583A68300415631 /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
-		4031A6752583A69700415631 /* all.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
-		4031A6872583A75B00415631 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorld.cpp; path = cpp/HelloWorld.cpp; sourceTree = "<group>"; };
-		4031A6922583B9A900415631 /* 関数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "関数.cpp"; path = "cpp/関数.cpp"; sourceTree = "<group>"; };
+		4031A65F2583A5CE00415631 /* 変数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "変数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4031A6BB2584DFA400415631 /* 変数_ex03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "変数_ex03.cpp"; path = "変数/変数_ex03.cpp"; sourceTree = "<group>"; };
+		4031A6BC2584DFA400415631 /* 浮動小数点数_ex01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "浮動小数点数_ex01.cpp"; path = "変数/浮動小数点数_ex01.cpp"; sourceTree = "<group>"; };
+		4031A6BD2584DFA400415631 /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = all.h; path = "変数/all.h"; sourceTree = "<group>"; };
+		4031A6BE2584DFA400415631 /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorld.cpp; path = "変数/HelloWorld.cpp"; sourceTree = "<group>"; };
+		4031A6BF2584DFA400415631 /* 変数_ex01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "変数_ex01.cpp"; path = "変数/変数_ex01.cpp"; sourceTree = "<group>"; };
+		4031A6C02584DFA400415631 /* 変数_ex02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "変数_ex02.cpp"; path = "変数/変数_ex02.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,11 +50,12 @@
 		4031A6562583A5CE00415631 = {
 			isa = PBXGroup;
 			children = (
-				4031A6922583B9A900415631 /* 関数.cpp */,
-				4031A6872583A75B00415631 /* HelloWorld.cpp */,
-				4031A6752583A69700415631 /* all.h */,
-				4031A66C2583A62100415631 /* 浮動小数点数.cpp */,
-				4031A6742583A68300415631 /* cpp */,
+				4031A6BC2584DFA400415631 /* 浮動小数点数_ex01.cpp */,
+				4031A6BF2584DFA400415631 /* 変数_ex01.cpp */,
+				4031A6C02584DFA400415631 /* 変数_ex02.cpp */,
+				4031A6BB2584DFA400415631 /* 変数_ex03.cpp */,
+				4031A6BD2584DFA400415631 /* all.h */,
+				4031A6BE2584DFA400415631 /* HelloWorld.cpp */,
 				4031A6602583A5CE00415631 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +63,7 @@
 		4031A6602583A5CE00415631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4031A65F2583A5CE00415631 /* cpp */,
+				4031A65F2583A5CE00415631 /* 変数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4031A65E2583A5CE00415631 /* cpp */ = {
+		4031A65E2583A5CE00415631 /* 変数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4031A6662583A5CE00415631 /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildConfigurationList = 4031A6662583A5CE00415631 /* Build configuration list for PBXNativeTarget "変数" */;
 			buildPhases = (
 				4031A65B2583A5CE00415631 /* Sources */,
 				4031A65C2583A5CE00415631 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = cpp;
+			name = "変数";
 			productName = cpp;
-			productReference = 4031A65F2583A5CE00415631 /* cpp */;
+			productReference = 4031A65F2583A5CE00415631 /* 変数 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4031A65A2583A5CE00415631 /* Build configuration list for PBXProject "cpp" */;
+			buildConfigurationList = 4031A65A2583A5CE00415631 /* Build configuration list for PBXProject "変数" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4031A65E2583A5CE00415631 /* cpp */,
+				4031A65E2583A5CE00415631 /* 変数 */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +124,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4031A6932583B9A900415631 /* 関数.cpp in Sources */,
+				4031A6C32584DFA400415631 /* HelloWorld.cpp in Sources */,
+				4031A6C52584DFA400415631 /* 変数_ex02.cpp in Sources */,
+				4031A6C22584DFA400415631 /* 浮動小数点数_ex01.cpp in Sources */,
+				4031A6C42584DFA400415631 /* 変数_ex01.cpp in Sources */,
+				4031A6C12584DFA400415631 /* 変数_ex03.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4031A65A2583A5CE00415631 /* Build configuration list for PBXProject "cpp" */ = {
+		4031A65A2583A5CE00415631 /* Build configuration list for PBXProject "変数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4031A6642583A5CE00415631 /* Debug */,
@@ -264,7 +274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4031A6662583A5CE00415631 /* Build configuration list for PBXNativeTarget "cpp" */ = {
+		4031A6662583A5CE00415631 /* Build configuration list for PBXNativeTarget "変数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4031A6672583A5CE00415631 /* Debug */,
