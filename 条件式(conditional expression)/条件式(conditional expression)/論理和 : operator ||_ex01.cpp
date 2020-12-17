@@ -1,5 +1,5 @@
 //
-//  論理積 : operator ||_ex01.cpp
+//  論理和 : operator ||_ex01.cpp
 //  条件式(conditional expression)
 //
 //  Created by uneko on 2020/12/14.

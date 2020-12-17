@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4098B2BC258798A70002AA2C /* 論理積 : operator ||_ex02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4098B2BB258798A70002AA2C /* 論理積 : operator ||_ex02.cpp */; };
+		40EF635B258B7B2F0099500E /* boolの交換_ex05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EF635A258B7B2F0099500E /* boolの交換_ex05.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		40207453258B4DA500317E4F /* 論理和 : operator ||_ex02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理和 : operator ||_ex02.cpp"; sourceTree = "<group>"; };
+		40207454258B4DA500317E4F /* 論理和 : operator ||_ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理和 : operator ||_ex01.cpp"; sourceTree = "<group>"; };
+		40207455258B4DE700317E4F /* 短絡評価_ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "短絡評価_ex01.cpp"; sourceTree = "<group>"; };
 		4098B287258671930002AA2C /* 条件式(conditional expression) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "条件式(conditional expression)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4098B293258671A40002AA2C /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = all.h; path = ../../all.h; sourceTree = "<group>"; };
 		4098B294258671BA0002AA2C /* 条件式_ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "条件式_ex01.cpp"; sourceTree = "<group>"; };
@@ -32,8 +35,12 @@
 		4098B2AB2587804F0002AA2C /* 論理積 : operator &&.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理積 : operator &&.cpp"; sourceTree = "<group>"; };
 		4098B2AF258781830002AA2C /* 論理積 : operator &&_ex02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理積 : operator &&_ex02.cpp"; sourceTree = "<group>"; };
 		4098B2B3258783820002AA2C /* 論理積 : operator &&_ex03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理積 : operator &&_ex03.cpp"; sourceTree = "<group>"; };
-		4098B2B72587851D0002AA2C /* 論理積 : operator ||_ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理積 : operator ||_ex01.cpp"; sourceTree = "<group>"; };
-		4098B2BB258798A70002AA2C /* 論理積 : operator ||_ex02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "論理積 : operator ||_ex02.cpp"; sourceTree = "<group>"; };
+		40EF633B258B765E0099500E /* 短絡評価_ex02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "短絡評価_ex02.cpp"; sourceTree = "<group>"; };
+		40EF6349258B778C0099500E /* boolの交換_ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "boolの交換_ex01.cpp"; sourceTree = "<group>"; };
+		40EF634D258B794C0099500E /* boolの交換_ex02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "boolの交換_ex02.cpp"; sourceTree = "<group>"; };
+		40EF6352258B79BE0099500E /* boolの交換_ex03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "boolの交換_ex03.cpp"; sourceTree = "<group>"; };
+		40EF6355258B7A720099500E /* boolの交換_ex04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "boolの交換_ex04.cpp"; sourceTree = "<group>"; };
+		40EF635A258B7B2F0099500E /* boolの交換_ex05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "boolの交換_ex05.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +81,15 @@
 				4098B2AB2587804F0002AA2C /* 論理積 : operator &&.cpp */,
 				4098B2AF258781830002AA2C /* 論理積 : operator &&_ex02.cpp */,
 				4098B2B3258783820002AA2C /* 論理積 : operator &&_ex03.cpp */,
-				4098B2B72587851D0002AA2C /* 論理積 : operator ||_ex01.cpp */,
-				4098B2BB258798A70002AA2C /* 論理積 : operator ||_ex02.cpp */,
+				40207454258B4DA500317E4F /* 論理和 : operator ||_ex01.cpp */,
+				40207453258B4DA500317E4F /* 論理和 : operator ||_ex02.cpp */,
+				40207455258B4DE700317E4F /* 短絡評価_ex01.cpp */,
+				40EF633B258B765E0099500E /* 短絡評価_ex02.cpp */,
+				40EF6349258B778C0099500E /* boolの交換_ex01.cpp */,
+				40EF634D258B794C0099500E /* boolの交換_ex02.cpp */,
+				40EF6352258B79BE0099500E /* boolの交換_ex03.cpp */,
+				40EF6355258B7A720099500E /* boolの交換_ex04.cpp */,
+				40EF635A258B7B2F0099500E /* boolの交換_ex05.cpp */,
 			);
 			path = "条件式(conditional expression)";
 			sourceTree = "<group>";
@@ -136,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4098B2BC258798A70002AA2C /* 論理積 : operator ||_ex02.cpp in Sources */,
+				40EF635B258B7B2F0099500E /* boolの交換_ex05.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
